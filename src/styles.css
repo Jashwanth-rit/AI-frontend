@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;  /* Dark background */
+    color: #e0e0e0;  /* Light text */
+  }
+  
+  .hero-image {
+    filter: brightness(0.7); /* Darken the hero image */
+  }
+
+  
+  .button, .cta-button {
+    background-color: #3a3a3a; /* Dark button background */
+    color: #fff;  /* White text for buttons */
+  }
+  
+  input, textarea {
+    background-color: #333; /* Dark input fields */
+    color: #fff; /* Light text inside input fields */
+    border: 1px solid #555; /* Slightly lighter border */
+  }
+  
+  /* Customize links or other elements as needed */
+  a {
+    color: #bb86fc; /* Lighter color for links */
+  }
+
+  /* Default (Light Mode) */
+:root {
+    --background-color: white;
+    --text-color: black;
+    --link-color: blue;
+    /* Add other colors as needed */
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    --background-color: #121212;
+    --text-color: white;
+    --link-color: lightblue;
+    /* Add other colors for dark mode */
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  

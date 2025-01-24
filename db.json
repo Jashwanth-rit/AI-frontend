@@ -1,0 +1,1560 @@
+{
+  "seller": [
+    {
+      "name": "jk",
+      "email": "jk@karunadu",
+      "password": "1234",
+      "id": "1cf3"
+    },
+    {
+      "id": "b91a",
+      "name": "jaya",
+      "email": "jk.karunadu01@gmail.com",
+      "password": "Jk@karunadu01"
+    },
+    {
+      "id": "93b4",
+      "name": "Jaya",
+      "email": "jk.karunadu01@gmail.com",
+      "password": "Jk@karunadu01"
+    },
+    {
+      "id": "fdaf",
+      "name": "jashwanth",
+      "email": "jk.karunadu01@gmail.com",
+      "password": "Jk@karunadu01"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "laptops",
+      "price": "400000",
+      "url": "https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.webp",
+      "discription": "laptops for sale",
+      "category": "laptop"
+    },
+    {
+      "id": "2",
+      "name": "I-phone",
+      "price": "500",
+      "url": "https://imgs.search.brave.com/IFDUdqwXGkgBmvU0XAuYO8xp_1QRXQAmRLbg5xVLbXM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzRz/N2k3ai9zdHlsZXMv/Y29tbXVuaXR5SWNv/bl9zcmRkdGZidTJk/bWIxLmpwZWc_Zm9y/bWF0PXBqcGcmcz1m/NzE1NDJiYTlkYmVh/YzkzYjRhZGEzOGQx/MjY1MzdkZjEyZGVj/MjM0",
+      "discription": "i-Phone for sale!!",
+      "category": "phone"
+    },
+    {
+      "id": "3",
+      "name": "Fashoins",
+      "price": "400",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "4",
+      "name": "Grocery",
+      "price": "400",
+      "url": "https://media.istockphoto.com/id/453963935/photo/fruits-and-vegetables-at-city-market-in-riga.webp?a=1&b=1&s=612x612&w=0&k=20&c=_7Ows4GmrOgzrA_VDPLCSmPfNIDaXgC0LjqAJ1u_q2s=",
+      "discription": "free to shop for grocey with lowest price ever",
+      "category": "grocery"
+    },
+    {
+      "id": "5",
+      "name": "refrigirator ",
+      "price": "10000",
+      "url": "https://media.gettyimages.com/id/481998336/photo/woman-contemplating-midnight-snack-late-night-with-open-refrigerator.jpg?s=612x612&w=0&k=20&c=HNJ1qTBuDFVGYmfoFr65D3v16YFAVJ406SCiy_iA0p8=",
+      "discription": "AI - powered refrigirator",
+      "category": "Home - appliances "
+    },
+    {
+      "id": "6",
+      "name": "one-plus",
+      "price": "5000",
+      "url": "https://media.gettyimages.com/id/1237093573/photo/a-oneplus-9-pro-smartphone-taken-on-april-19-2021.jpg?s=612x612&w=0&k=20&c=itO6IuvbPY5XySd9SW_m6pFCIUFlBQztjM7BiPnbuAM=",
+      "discription": "one-plus - most reputated phones",
+      "category": "phone"
+    },
+    {
+      "id": "7",
+      "name": "samsung",
+      "price": "8000",
+      "url": "https://media.gettyimages.com/id/1241495944/photo/a-samsung-galaxy-z-flip-3-smartphone-taken-on-september-29-2021.jpg?s=612x612&w=0&k=20&c=v58klVpOgGaT-STcohBpC9nrAmHPLRsC_JM_pqTCvdU=",
+      "discription": "samsung - professional phones",
+      "category": "phone"
+    },
+    {
+      "id": "8",
+      "name": "lipstick",
+      "price": "400",
+      "url": "https://media.gettyimages.com/id/1244956963/photo/this-photograph-taken-at-the-french-cosmetic-company-loreal-on-november-17-shows-lipsticks-at.jpg?s=612x612&w=0&k=20&c=gKp6qfBUJ-mviesLy5Gkq1uCZg1pESBgYmJTW4Jba3I=",
+      "discription": "most demand by women",
+      "category": "fashions"
+    },
+    {
+      "id": "9",
+      "name": "t-shirt",
+      "price": "100",
+      "url": "https://media.gettyimages.com/id/1246044135/photo/los-angeles-ca-hailey-bieber-is-seen-on-january-06-2023-in-los-angeles-california.jpg?s=612x612&w=0&k=20&c=J2bUaF0mqimzxcD_Ba9HtBEChXGJWffzZGSwnoN_Xzo=",
+      "discription": "t-shirt for women",
+      "category": "fashoins-clothes"
+    },
+    {
+      "id": "10",
+      "name": "jeans",
+      "price": "200",
+      "url": "https://media.gettyimages.com/id/1475049729/photo/tom-cruise-attends-an-event-united-states-circa-1980s.jpg?s=612x612&w=0&k=20&c=JbdpC971mCHltIMZz4Mcam7NgcHYQpheh7w2uGQhqTQ=",
+      "discription": "jeans for mens",
+      "category": "fashoins-clothes"
+    },
+    {
+      "id": "11",
+      "name": "jubha-phijaama",
+      "price": "300",
+      "url": "https://media.gettyimages.com/id/729880345/photo/his-holiness-the-dalai-lama-at-his-home-in-dharamsala-india-circa-1991.jpg?s=612x612&w=0&k=20&c=ED-EA-paj5rvvmYbjlfmwKtbhae_lN2InanV8fPXgyA=",
+      "discription": "indias traditional dress",
+      "category": "fashions clothes"
+    },
+    {
+      "id": "12",
+      "name": "saare",
+      "price": "300",
+      "url": "https://media.gettyimages.com/id/928241612/photo/indian-model-wearing-an-exquisite-gujarati-bridal-lehenga-with-traditional-opulent-jewellery.jpg?s=612x612&w=0&k=20&c=qkiKcOYohwd8EmVe5idR7c9DuawTHabOIagh9M_8cnU=",
+      "discription": "saare for womens",
+      "category": "fashions - clothes"
+    },
+    {
+      "id": "13",
+      "name": "Hp",
+      "price": "40000",
+      "url": "https://media.gettyimages.com/id/1241496036/photo/a-group-of-oled-laptop-computers-including-a-razer-blade-15-oled-4k-60hz-asus-vivobook-pro.jpg?s=612x612&w=0&k=20&c=3ORcJAnwh18uAVdY9oXh0WZYf0drTrflvJfCext-Trs=",
+      "discription": "hp for workers",
+      "category": "laptop"
+    },
+    {
+      "id": "14",
+      "name": "Mac-book 11",
+      "price": "100000",
+      "url": "https://media.gettyimages.com/id/1235535047/photo/an-apple-macbook-air-laptop-computer-taken-on-november-24-2020.jpg?s=612x612&w=0&k=20&c=Q7ukjbdJYCzIQdZ6z_DJGk4LHdNGj8_F_yym54zS3mo=",
+      "discription": "laptops for long time ",
+      "category": "laptop"
+    },
+    {
+      "id": "15",
+      "name": "paintings",
+      "price": "10000",
+      "url": "https://media.gettyimages.com/id/961773082/photo/empress-elisabeth-of-austria-with-diamond-stars-in-her-hair-1865-found-in-the-collection-of.jpg?s=612x612&w=0&k=20&c=mM6DKSeYbKiw8rBI97uSTYcjnukMVrug5xfs4kOnMtA=",
+      "discription": "painting for art",
+      "category": "decoration"
+    },
+    {
+      "id": "16",
+      "name": "stickers",
+      "price": "400",
+      "url": "https://media.gettyimages.com/id/515410914/photo/an-automobile-bumper-sign-used-in-the-1952-eisenhower-presidential-campaign-reads-i-like-ike.jpg?s=612x612&w=0&k=20&c=XsRqk1isbO9a1Hwua9UpMs0p9dmzj_EasK5R6Wzw_Q4=",
+      "discription": "sticker for decoration",
+      "category": "decoration"
+    },
+    {
+      "id": "17",
+      "name": "monuments",
+      "price": "500",
+      "url": "https://media.gettyimages.com/id/1192965338/photo/close-up-of-products-for-the-christmas-holiday-on-a-store-shelf-san-ramon-california-november.jpg?s=612x612&w=0&k=20&c=xMkYiQqLKHMd8Lk77oi1-BeT92byAFafhbQVIezG4cg=",
+      "discription": "home decorations",
+      "category": "decoration"
+    },
+    {
+      "id": "18",
+      "name": "lights",
+      "price": "400",
+      "url": "https://media.gettyimages.com/id/73167732/photo/san-francisco-a-worker-at-the-city-lights-light-bulb-store-holds-a-traditional-incandescent.jpg?s=612x612&w=0&k=20&c=kat4-mcNnqtlDVjfQpncFYsuEX6I-VV1_lW4mBGjMBo=",
+      "discription": "bulb to light t=earth",
+      "category": "light"
+    },
+    {
+      "id": "19",
+      "name": "make-up",
+      "price": "500",
+      "url": "https://media.gettyimages.com/id/119684085/photo/young-woman-using-lip-pencil-smiling.jpg?s=612x612&w=0&k=20&c=uK-4iyOlrBzOs5Up1wJKzke_gLXKv2rD5NxGiRIm8M4=",
+      "discription": "make up kit , love of women",
+      "category": "make up , fashion"
+    },
+    {
+      "id": "20",
+      "name": "glasses",
+      "price": "500",
+      "url": "https://media.gettyimages.com/id/169724364/photo/close-up-view-of-of-a-pair-of-sun-glasses-in-an-illuminated-window-display-at-the-oliver.jpg?s=612x612&w=0&k=20&c=6Mm8UnGzi4aWAEE7IZbehtfGJ97iY0CzLl5uQfuGrnU=",
+      "discription": "glasses for sale",
+      "category": "fashions"
+    }
+  ],
+  "user": [
+    {
+      "id": "d9b9",
+      "name": "jk",
+      "email": "jk@karunadu",
+      "password": "1234"
+    },
+    {
+      "id": "1c87",
+      "name": "Jaya",
+      "email": "jk.karunadu01@gmail.com",
+      "password": "Jk@karunadu01"
+    },
+    {
+      "id": "503e",
+      "name": "Jashwanth",
+      "email": "jk.karunadu01@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "order": [
+    {
+      "id": "be4c",
+      "products": [
+        {
+          "id": "3",
+          "name": "Fashoins",
+          "price": "400",
+          "discription": "this is fashoin world",
+          "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+          "category": "clothes"
+        },
+        {
+          "id": "3",
+          "name": "Fashoins",
+          "price": "400",
+          "discription": "this is fashoin world",
+          "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+          "category": "clothes"
+        },
+        {
+          "id": "3",
+          "name": "Fashoins",
+          "price": "400",
+          "discription": "this is fashoin world",
+          "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+          "category": "clothes"
+        },
+        {
+          "id": "3",
+          "name": "Fashoins",
+          "price": "400",
+          "discription": "this is fashoin world",
+          "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+          "category": "clothes"
+        },
+        {
+          "id": "3",
+          "name": "Fashoins",
+          "price": "400",
+          "discription": "this is fashoin world",
+          "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+          "category": "clothes"
+        },
+        {
+          "id": "3",
+          "name": "Fashoins",
+          "price": "400",
+          "discription": "this is fashoin world",
+          "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+          "category": "clothes"
+        }
+      ],
+      "userDetails": {
+        "name": "ewyrureu",
+        "phone": "2543656473",
+        "address": "7gtytukuk3yyy",
+        "pickupTime": "03:19",
+        "orderDay": "2024-12-20",
+        "paymentMethod": "Cash on Delivery"
+      },
+      "billDetails": {
+        "totalCost": 2400,
+        "tax": 240,
+        "discount": 24,
+        "deliveryCharge": 50,
+        "finalAmount": 2666
+      }
+    }
+  ],
+  "carousel": [
+    {
+      "id": "45",
+      "name": "laptops",
+      "price": "40000",
+      "url": "https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.webp",
+      "discription": "laptops for sale",
+      "category": "laptop"
+    },
+    {
+      "id": "65",
+      "name": "I-phone",
+      "price": "500",
+      "url": "https://imgs.search.brave.com/IFDUdqwXGkgBmvU0XAuYO8xp_1QRXQAmRLbg5xVLbXM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzRz/N2k3ai9zdHlsZXMv/Y29tbXVuaXR5SWNv/bl9zcmRkdGZidTJk/bWIxLmpwZWc_Zm9y/bWF0PXBqcGcmcz1m/NzE1NDJiYTlkYmVh/YzkzYjRhZGEzOGQx/MjY1MzdkZjEyZGVj/MjM0",
+      "discription": "i-Phone for sale!!",
+      "category": "phone"
+    },
+    {
+      "id": "98",
+      "name": "Fashoins",
+      "price": "400",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "34",
+      "name": "Grocery",
+      "price": "400",
+      "url": "https://media.istockphoto.com/id/453963935/photo/fruits-and-vegetables-at-city-market-in-riga.webp?a=1&b=1&s=612x612&w=0&k=20&c=_7Ows4GmrOgzrA_VDPLCSmPfNIDaXgC0LjqAJ1u_q2s=",
+      "discription": "free to shop for grocey with lowest price ever",
+      "category": "grocery"
+    }
+  ],
+  "cart": [
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    }
+  ],
+  "buy": [
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    },
+    {
+      "id": "3",
+      "price": "400",
+      "name": "Fashoins",
+      "url": "https://media.istockphoto.com/id/1482140516/photo/spring-summer-womens-clothing-for-walking-traveling-on-a-hanger-natural-fabric-blouses.jpg?s=1024x1024&w=is&k=20&c=wUYKzVlrcQRmUcu8cxCbgRj5u0GU-x96zLqo36n8Rfc=",
+      "discription": "this is fashoin world",
+      "category": "clothes"
+    }
+  ],
+   "Products": [
+      {
+          "id": "1",
+          "name": "Jaycot",
+          "price": "$433",
+          "url": "https://www.jaycot.com/products/bgphotos/bimg607d501363aae.jpg",
+          "description": "Things works better with Quality",
+          "category": "Bandage"
+      },
+      {
+          "id": "2",
+          "name": "Dolo 650",
+          "price": "$468",
+          "url": "https://images.apollo247.in/pub/media/catalog/product/d/o/dol0026_1-.jpg",
+          "description": "Paracetamol tablets IP",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "3",
+          "name": "Ansell",
+          "price": "$233",
+          "url": "https://5.imimg.com/data5/SELLER/Default/2022/6/YZ/UL/ZF/146626771/nitrile-disposable-gloves-500x500.jpg",
+          "description": " STAYING TWO STEPS AHEAD OF WORKPLACE RISK",
+          "category": "Gloves"
+      },
+      {
+          "id": "4",
+          "name": "Spasmonil",
+          "price": "$316",
+          "url": "https://assets.truemeds.in/Images/ProductImage/TM-TACR1-037062/spasmonil-tablet-10_spasmonil-tablet-10--TM-TACR1-037062_1.png",
+          "description": "Abdominal and gut",
+          "category": "Tablet"
+      },
+      {
+          "id": "5",
+          "name": "Dettol",
+          "price": "$254",
+          "url": "https://www.dettol.com.ng/static/ccb8b22d769e56dcac9cad5ba3fe851f/630fb/dettol-asl-med.png",
+          "description": "Be 100% Sure",
+          "category": "Antiseptic"
+      },
+      {
+          "id": "6",
+          "name": "Band-Aid",
+          "price": "$183",
+          "url": "https://m.media-amazon.com/images/I/81Pf9qkId7L.jpg",
+          "description": "Flexible rolled gauze",
+          "category": "Gauze"
+      },
+      {
+          "id": "7",
+          "name": "Kimberly_Clark",
+          "price": "$484",
+          "url": "https://ehrs.upenn.edu/sites/default/files/inline-images/Screen%20Shot%202018-12-12%20at%203.48.08%20PM.png",
+          "description": "Purple Nitrile",
+          "category": "Gloves"
+      },
+      {
+          "id": "8",
+          "name": "BD Emerald",
+          "price": "$363",
+          "url": "https://5.imimg.com/data5/YR/RY/MY-3821246/bd-syringe-3ml.jpg",
+          "description": "Single use syringe",
+          "category": "Syringe"
+      },
+      {
+          "id": "9",
+          "name": "Eto sterile",
+          "price": "$347",
+          "url": "https://m.media-amazon.com/images/I/71vIv6b+3tL.jpg",
+          "description": "Sterile Swabs",
+          "category": "Gauze"
+      },
+      {
+          "id": "10",
+          "name": "Medical M",
+          "price": "$102",
+          "url": "https://5.imimg.com/data5/AZ/DA/ZQ/SELLER-97860572/medical-m-tablet-500x500.jpg",
+          "description": "Vitamin Pro",
+          "category": "Tablet"
+      },
+      {
+          "id": "11",
+          "name": "Benadryl",
+          "price": "$498",
+          "url": "https://cdn01.pharmeasy.in/dam/products/022615/benadryl-cough-formula-bottle-of-150ml-syrup-2-1641535123.jpg",
+          "description": "Dry cough ",
+          "category": "Cough Syrup"
+      },
+      {
+          "id": "12",
+          "name": "Nipro syringe",
+          "price": "$10",
+          "url": "https://5.imimg.com/data5/BI/KJ/CG/SELLER-3821246/nipro-sringe-with-needle1ml-2-5ml-3ml-5ml-10ml-20ml-50ml.jpg",
+          "description": "Syringe with needle",
+          "category": "Syringe"
+      },
+      {
+          "id": "13",
+          "name": "Nimeol-SP",
+          "price": "$278",
+          "url": "https://tiimg.tistatic.com/fp/2/007/259/nimesulide-paracetamol-serratiopeptidase-body-pain-reliever-tablets-837.jpg",
+          "description": "One stop",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "14",
+          "name": "Tromanil",
+          "price": "$440",
+          "url": "https://media.licdn.com/dms/image/v2/D4D12AQEFk7Zrx-6IoQ/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1670411622881?e=1740009600&v=beta&t=Uofw0TPCuV1IoBp4RL71FfpZ1G-d7XF2nsGCMU9lY6Q",
+          "description": "Reduces pain instantly",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "15",
+          "name": "Amorex",
+          "price": "$254",
+          "url": "https://ayurchemstore.com/cdn/shop/products/Amorex-Tablet-Ayurchem-1666166058_600x.jpg?v=1666166060",
+          "description": "Ayurvedic",
+          "category": "Tablet"
+      },
+      {
+          "id": "16",
+          "name": "Febase",
+          "price": "$79",
+          "url": "https://cagrusbiopharma.com/public/images/product/cQrytSCL9vxcoHMx3zn25U0QyCFzR0KcyAq7BPmd.jpeg",
+          "description": "Description of product 16",
+          "category": "Injection"
+      },
+      {
+          "id": "17",
+          "name": "Akmin-500",
+          "price": "$262",
+          "url": "https://5.imimg.com/data5/SELLER/Default/2022/3/RO/YT/KO/40453573/amikacin-sulphate-injection.jpg",
+          "description": "One time use",
+          "category": "Injection"
+      },
+      {
+          "id": "18",
+          "name": "Melco-MR",
+          "price": "$133",
+          "url": "https://www.neuraclelife.com/wp-content/uploads/2018/10/MELCO-MR.jpg",
+          "description": "painless",
+          "category": "Pain Killer"
+      },
+      {
+          "id": "19",
+          "name": "DR.Moxa",
+          "price": "$176",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKENJ5NhsW2uDn7vTRz2oCM8LaN1GvuqYoEA&s",
+          "description": "3 layer protection",
+          "category": "Medical Mask"
+      },
+      {
+          "id": "20",
+          "name": "Health Safe",
+          "price": "$277",
+          "url": "https://m.media-amazon.com/images/I/71Gh1aLnvwL.AC_UY1100.jpg",
+          "description": "Surgical mask",
+          "category": "Medical Mask"
+      }
+  ],
+  "Healthcare": [
+    {
+        "id": "1",
+        "name": "Dr. John Doe",
+        "specialty": "Cardiologist",
+        "phone": "+1234567890",
+        "email": "johndoe@example.com",
+        "location": "123 Heart Lane, City, Country",
+        "availability": "9 AM - 5 PM",
+        "image": "https://doximity-res.cloudinary.com/images/f_auto,q_auto,t_profile_photo_320x320/w8gvhfkgigy3fhht4fwg/john-doe-md-san-francisco-ca.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Dr. Sarah Smith",
+        "specialty": "Dermatologist",
+        "phone": "+9876543210",
+        "email": "sarahsmith@example.com",
+        "location": "456 Skin St, City, Country",
+        "availability": "10 AM - 6 PM",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQWwTg-7MRWnseXlO6DrRn_WyxGb1jngQZ8w&s"
+    },
+    {
+        "id": "3",
+        "name": "Dr. Michael Johnson",
+        "specialty": "Orthopedic Surgeon",
+        "phone": "+1122334455",
+        "email": "michaeljohnson@example.com",
+        "location": "789 Bone Blvd, City, Country",
+        "availability": "8 AM - 4 PM",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuBByBdq3lVgRodNhtm51qNRYlE42tIoP4dw&s"
+    },
+    {
+        "id": "4",
+        "name": "Dr. Emma Lee",
+        "specialty": "Pediatrician",
+        "phone": "+5544332211",
+        "email": "emmalee@example.com",
+        "location": "101 Child Care Ave, City, Country",
+        "availability": "9 AM - 3 PM",
+        "image": "https://imgs.search.brave.com/y0tEiF2U4VSw2nMgiYLBZkPmbyGH4q7M-jTrD3l2j1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTkz/MTI1NTAvcGhvdG8v/ZG9jdG9yLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1QZ3lD/b0Z6VnlTQU9kXzdw/d09mNFd1NW1oUDZ0/Y2k1Ulg1c3ZINzFl/cW1jPQ"
+    },
+    {
+        "id": "5",
+        "name": "Dr. William Brown",
+        "specialty": "Dentist",
+        "phone": "+6677889900",
+        "email": "williambrown@example.com",
+        "location": "202 Dental Dr, City, Country",
+        "availability": "11 AM - 7 PM",
+        "image": "https://imgs.search.brave.com/-y1i8hGooekSAYbh4Gq8KlVKKG2Yc1QqUXGn3kmssZE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3MuaGVhbHRoZ3Jh/ZGVzLmNvbS9pbWcv/cHJvdi8zL0IvMi8z/QjJTTF93MTIwaDE2/MF92MzQyNzYuanBn/P25hbWU9RHIuJTIw/V2lsbGlhbSUyMEJy/b3duLCUyME1E"
+    },
+    {
+        "id": "6",
+        "name": "Dr. Lisa White",
+        "specialty": "Psychiatrist",
+        "phone": "+3344556677",
+        "email": "lisawhite@example.com",
+        "location": "303 Mind Care Rd, City, Country",
+        "availability": "10 AM - 4 PM",
+        "image": "https://imgs.search.brave.com/DcB6wghjDTiSNQzDvVsj5xOJ9ZnGwhMZzqtex5hJUsE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2VzdGxha2VkZXJt/YXRvbG9neS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTkv/MDYvTGlzYS1SaG9k/ZXMuanBn"
+    },
+    {
+        "id": "7",
+        "name": "Dr. Robert Clark",
+        "specialty": "General Practitioner",
+        "phone": "+2233445566",
+        "email": "robertclark@example.com",
+        "location": "404 Health St, City, Country",
+        "availability": "9 AM - 5 PM",
+        "image": "https://imgs.search.brave.com/czqnBaoitrJHVqnlQyop7eL72vaGzwa1cpaEnkeXNiY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRz/dGFyaGVhbHRoLWRl/bGl2ZXJ5LnNpdGVj/b3JlY29udGVudGh1/Yi5jbG91ZC9hcGkv/cHVibGljL2NvbnRl/bnQvQ0xBUktfUm9i/ZXJ0XzYwMD92PWQ5/MjhmZjFk"
+    },
+    {
+        "id": "8",
+        "name": "Dr. Karen Martinez",
+        "specialty": "Obstetrician",
+        "phone": "+1122334455",
+        "email": "karenmartinez@example.com",
+        "location": "505 Birth Blvd, City, Country",
+        "availability": "8 AM - 2 PM",
+        "image": "https://imgs.search.brave.com/M61fWOxq7K9JaXpkjQl0BqsyjXQfQMdSEoftSwL6FDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kaW1z/LmhlYWx0aGdyYWRl/cy5jb20vZGltczMv/TU1ILzMwZjg2MmQv/MjE0NzQ4MzY0Ny9z/dHJpcC90cnVlL2Ny/b3AvMTEyNXgxNTAw/KzIxMiswL3Jlc2l6/ZS85MHgxMjAhL3F1/YWxpdHkvNzUvP3Vy/bD1odHRwczovL3Vj/bXNjZG4uaGVhbHRo/Z3JhZGVzLmNvbS83/Yy8xYS82NmZmNjIy/NTRjMzc4N2IyYTg5/ODVkNTFhOTkzL2c4/dzJkLXZpbmNlbnQt/d3UtanBn"
+    },
+    {
+        "id": "9",
+        "name": "Dr. James Davis",
+        "specialty": "Neurologist",
+        "phone": "+9988776655",
+        "email": "jamesdavis@example.com",
+        "location": "606 Brain St, City, Country",
+        "availability": "9 AM - 5 PM",
+        "image": "https://imgs.search.brave.com/Tq9Zg3WCvAGE5GceO09ZHvHRF22pGHemMArwgvjHGgM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3MuaGVhbHRoZ3Jh/ZGVzLmNvbS9pbWcv/cHJvdi9HLzUvNS9H/NTUzVl93MTIwaDE2/MF92NjkzMjkuanBn"
+    },
+    {
+        "id": "10",
+        "name": "Dr. Jennifer Wilson",
+        "specialty": "Endocrinologist",
+        "phone": "+7766554433",
+        "email": "jenniferwilson@example.com",
+        "location": "707 Hormone St, City, Country",
+        "availability": "10 AM - 6 PM",
+        "image": "https://imgs.search.brave.com/1OAQYud7qLuvlS1aSm4caRE_nHo2A34G5f1GOr98NsI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/b3MuaGVhbHRoZ3Jh/ZGVzLmNvbS9pbWcv/cHJvdi8yL0cvUi8y/R1I5UV93MTIwaDE2/MF92NTAzLmpwZz9u/YW1lPURyLiUyMEpl/bm5pZmVyJTIwV2ls/c29uLCUyMERP"
+    }
+  ],
+  "PoliceInfo":[
+    {
+        "id": "1",
+        "officerName": "Officer John Smith",
+        "badgeNumber": "A12345",
+        "station": "Central Police Station",
+        "location": "123 Main St, City, Country",
+        "contact": "+1234567890",
+        "jurisdiction": "Downtown",
+        "email": "johnsmith@example.com",
+        "image": "https://imgs.search.brave.com/23KBjcRCLvecNCBu9nxMu3TvagaUNDIUG6k7Z9tVjQM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b2RtcC5vcmcvbWVk/aWEvdGh1bWIvMTI1/L29mZmljZXIvMjcy/MjEvY19kYXdzb24t/Y29vcGVyLmpwZw"
+    },
+    {
+        "id": "2",
+        "officerName": "Officer Maria Johnson",
+        "badgeNumber": "B67890",
+        "station": "West End Police Station",
+        "location": "456 Elm St, City, Country",
+        "contact": "+9876543210",
+        "jurisdiction": "West End",
+        "email": "mariajohnson@example.com",
+        "image": "https://imgs.search.brave.com/_EVeuS1CA5Avqc1jtBylwsxCSNNPpfprNDmor2EwpEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b2RtcC5vcmcvbWVk/aWEvdGh1bWIvMTI1/L29mZmljZXIvMjcy/MTkvZGVwdXR5LWNv/bnN0YWJsZS1rYXRo/ZXJpbmUtaHV0c29u/LmpwZw"
+    },
+    {
+        "id": "3",
+        "officerName": "Officer David Lee",
+        "badgeNumber": "C11223",
+        "station": "Northside Police Station",
+        "location": "789 Pine St, City, Country",
+        "contact": "+1122334455",
+        "jurisdiction": "Northside",
+        "email": "davidlee@example.com",
+        "image": "https://imgs.search.brave.com/aER8yEAHYt1DFmCEE--r7xXNCTBMpMo1_cxyXtXmHQA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b2RtcC5vcmcvbWVk/aWEvdGh1bWIvMTI1/L29mZmljZXIvMjcx/MTcvY19odW50ZXIt/bWlsbGVyLmpwZw"
+    },
+    {
+        "id": "4",
+        "officerName": "Officer Emily Davis",
+        "badgeNumber": "D44556",
+        "station": "Eastside Police Station",
+        "location": "101 Maple St, City, Country",
+        "contact": "+6677889900",
+        "jurisdiction": "Eastside",
+        "email": "emilydavis@example.com",
+        "image": "https://imgs.search.brave.com/BkdlOU5H8uh1SKkbTSK7vNpLemwZK03a04XjKhcwTgY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b2RtcC5vcmcvbWVk/aWEvdGh1bWIvMTI1/L29mZmljZXIvMjcx/NjEvY19jYW1wYmVs/bC1jYWlsZWUuanBn"
+    },
+    {
+        "id": "5",
+        "officerName": "Officer Michael Brown",
+        "badgeNumber": "E78901",
+        "station": "South District Police Station",
+        "location": "202 Oak St, City, Country",
+        "contact": "+2233445566",
+        "jurisdiction": "South District",
+        "email": "michaelbrown@example.com",
+        "image": "https://imgs.search.brave.com/mkRibbUFSaweUX5G3Q84cC_Iw_zJOtvcqRy7Os6P7SU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wb2xp/Y2Uuc2xjLmdvdi93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8x/Mi9Ccm93bi5wbmcj/NDYyOTA"
+    },
+    {
+        "id": "6",
+        "officerName": "Officer Olivia Martinez",
+        "badgeNumber": "F34567",
+        "station": "Uptown Police Station",
+        "location": "303 Birch St, City, Country",
+        "contact": "+3344556677",
+        "jurisdiction": "Uptown",
+        "email": "oliviamartinez@example.com",
+        "image": "https://imgs.search.brave.com/lpkl6Jl8-3Sg1ythUhlY5POKLih4F9SZmCvPKVSS5qg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMxLmNic25ld3Nz/dGF0aWMuY29tL2h1/Yi9pL3IvMjAyNC8x/MS8wNi8xMTRhM2M5/Yy04NzEwLTRhMjIt/ODNhYy1iOWViMTFm/YTY4NTEvdGh1bWJu/YWlsLzYyMHg3NzUv/Y2ZjMDdmMTdjNmVl/NTEzMWU0NjI3Yjdh/ZGQ1ODQyYzEvb2Zm/aWNlci1lbnJpcXVl/LW1hcnRpbmV6Lmpw/Zz92PWZhOTk3NzM1/MzgzM2Y0NmY0MGIw/N2FiY2Q5ZDUyNDBi/Iw"
+    },
+    {
+        "id": "7",
+        "officerName": "Officer Daniel Wilson",
+        "badgeNumber": "G89012",
+        "station": "Riverside Police Station",
+        "location": "404 Cedar St, City, Country",
+        "contact": "+9988776655",
+        "jurisdiction": "Riverside",
+        "email": "danielwilson@example.com",
+        "image": "https://imgs.search.brave.com/nk0ZpRMkAxvn8L0c3ZYa2cRLWDu2eNXDCwrlkhgxmX8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b2RtcC5vcmcvbWVk/aWEvdGh1bWIvMTI1/L29mZmljZXIvMjcy/MzAvcG9saWNlLW9m/ZmljZXItamFjb2It/Y2FuZGFub3phLmpw/Zw"
+    },
+    {
+        "id": "8",
+        "officerName": "Officer Sophia Lee",
+        "badgeNumber": "H23456",
+        "station": "Lakeside Police Station",
+        "location": "505 Willow St, City, Country",
+        "contact": "+7766554433",
+        "jurisdiction": "Lakeside",
+        "email": "sophialee@example.com",
+        "image": "https://imgs.search.brave.com/yNosG42G3fnSS5yg1w9IemIBiAnEGtQKYYPSpGsdN4U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU1/MTUwMDM5L3Bob3Rv/L2ZlbWFsZS1wb2xp/Y2Utb2ZmaWNlci5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/VVRTWGRzNGNkZW9I/Q1RIblMyNC1saGs0/a0dLSGppRlhkRlpf/b0RHN0Y4VT0"
+    },
+    {
+        "id": "9",
+        "officerName": "Officer James Clark",
+        "badgeNumber": "I67890",
+        "station": "Mountain Police Station",
+        "location": "606 Pinecone St, City, Country",
+        "contact": "+1122334455",
+        "jurisdiction": "Mountain",
+        "email": "jamesclark@example.com",
+        "image": "https://imgs.search.brave.com/MrHphqZalGE8QorSYbHqgTHvkJHmWhk1LrgixIFS9X0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGVlbmgub3JnL3Np/dGVzL2cvZmlsZXMv/dnlobGlmNzc2L2Yv/cmVzaXplL2ltY2Uv/bGVlcGQtZHJvbnNm/aWVsZC0yMDE4LTAw/NDEtLTIzNngzMDAu/anBn"
+    },
+    {
+        "id": "10",
+        "officerName": "Officer Isabella White",
+        "badgeNumber": "J12345",
+        "station": "City Center Police Station",
+        "location": "707 Birchwood St, City, Country",
+        "contact": "+6677889900",
+        "jurisdiction": "City Center",
+        "email": "isabellawhite@example.com",
+        "image": "https://imgs.search.brave.com/M8JbNlh19vLJuB7c2IE-g-zfurHK4c0ndrL3MtewmfI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmRh/aWx5bWFpbC5jby51/ay8xcy8yMDI0LzEx/LzI3LzA2LzkyNTMx/MTkzLTE0MTMwNDUx/LWltYWdlLWEtNzdf/MTczMjY4ODM2NzAx/My5qcGc"
+    }
+],
+"FireExtinguisher":[
+  {
+      "id": "1",
+      "type": "CO2",
+      "location": "Storage Room 1",
+      "maintenanceDate": "2023-10-01T00:00:00Z",
+      "expiryDate": "2025-10-01T00:00:00Z",
+      "capacity": "5kg",
+      "contact": "+1234567890",
+      "image": "https://www.scutumsoutheast.co.uk/wp-         content/uploads/2024/04/DSC09006-640x940-c-center.jpg"
+  },
+  {
+      "id": "2",
+      "type": "Foam",
+      "location": "Office Area 2",
+      "maintenanceDate": "2023-05-10T00:00:00Z",
+      "expiryDate": "2025-05-10T00:00:00Z",
+      "capacity": "10kg",
+      "contact": "+2345678901",
+      "image": "https://media.istockphoto.com/id/183431381/photo/foam-fire-extinguisher.jpg?s=612x612&w=0&k=20&c=j1XCM8Zzozv2y9kq3yQLPsURerHXZAKf-m7o7koKT_M="
+  },
+  {
+      "id": "3",
+      "type": "Water",
+      "location": "Lobby",
+      "maintenanceDate": "2023-07-15T00:00:00Z",
+      "expiryDate": "2026-07-15T00:00:00Z",
+      "capacity": "7kg",
+      "contact": "+3456789012",
+      "image": "https://checkfire.co.uk/wp-content/uploads/2019/05/A-Guide-to-Water-Blog-Image.jpg"
+  },
+  {
+      "id": "4",
+      "type": "CO2",
+      "location": "Kitchen",
+      "maintenanceDate": "2023-03-20T00:00:00Z",
+      "expiryDate": "2025-03-20T00:00:00Z",
+      "capacity": "3kg",
+      "contact": "+4567890123",
+      "image": "https://safexfire.com/wp-content/uploads/2021/06/Untitled-design-6.jpg"
+  },
+  {
+      "id": "5",
+      "type": "Foam",
+      "location": "Warehouse",
+      "maintenanceDate": "2023-11-01T00:00:00Z",
+      "expiryDate": "2026-11-01T00:00:00Z",
+      "capacity": "20kg",
+      "contact": "+5678901234",
+      "image": "https://www.firearmour.com.sg/wp-content/uploads/2022/02/Fire-Extinguisher-Singapore-Kitchen-2022-002-scaled.jpg"
+  },
+  {
+      "id": "6",
+      "type": "Water",
+      "location": "Server Room",
+      "maintenanceDate": "2023-09-10T00:00:00Z",
+      "expiryDate": "2025-09-10T00:00:00Z",
+      "capacity": "12kg",
+      "contact": "+6789012345",
+      "image": "https://5.imimg.com/data5/YH/AO/MY-13407953/water-fire-extinguisher.jpg"
+  },
+  {
+      "id": "7",
+      "type": "CO2",
+      "location": "Parking Garage",
+      "maintenanceDate": "2023-04-15T00:00:00Z",
+      "expiryDate": "2025-04-15T00:00:00Z",
+      "capacity": "8kg",
+      "contact": "+7890123456",
+      "image": "https://www.firefighter.com.my/cdn/shop/files/Stand-yellow_2048x2048b_c69d23fc-1c83-437c-8e58-26bfc5e543f8.jpg?v=1688092415"
+  },
+  {
+      "id": "8",
+      "type": "Foam",
+      "location": "Production Floor",
+      "maintenanceDate": "2023-06-25T00:00:00Z",
+      "expiryDate": "2026-06-25T00:00:00Z",
+      "capacity": "15kg",
+      "contact": "+8901234567",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Pa45MyfSM0OfevQ3KRyGfV8kqyhJgg_EUA&s"
+  },
+  {
+      "id": "9",
+      "type": "Water",
+      "location": "Hallway",
+      "maintenanceDate": "2023-01-30T00:00:00Z",
+      "expiryDate": "2026-01-30T00:00:00Z",
+      "capacity": "5kg",
+      "contact": "+9012345678",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoUrdH5TIG0u5FoLoKW0g0VbdhGQqrp-twg&s"
+  },
+  {
+      "id": "10",
+      "type": "CO2",
+      "location": "Conference Room",
+      "maintenanceDate": "2023-08-05T00:00:00Z",
+      "expiryDate": "2025-08-05T00:00:00Z",
+      "capacity": "6kg",
+      "contact": "+1230987654",
+      "image": "https://5.imimg.com/data5/BP/XC/MY-35345229/co2-fire-extinguisher-gas.jpg"
+  }
+],
+"carouselSchema":[
+  {
+    "id": "1",
+    "name": "Paracetamol",
+    "price": "50",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2022/9/IV/UY/CG/75459511/500mg-paracetamol-tablet.jpg",
+    "description": "Used to relieve mild to moderate pain and reduce fever.",
+    "category": "Pain Relief"
+  },
+  {
+    "id": "2",
+    "name": "Ibuprofen",
+    "price": "70",
+    "url": "https://www.ashcroftpharmacy.co.uk/uploads/images/products/large/ashcroft-pharmacy-ibuprofen-400mg-tablets-24-tablets-1722352606Ibuprofen-400mg-Tablets.jpg",
+    "description": "Nonsteroidal anti-inflammatory drug (NSAID) used to reduce fever and treat pain.",
+    "category": "Pain Relief"
+  },
+  {
+    "id": "3",
+    "name": "Amoxicillin",
+    "price": "150",
+    "url": "https://5.imimg.com/data5/ANDROID/Default/2023/4/302037696/HU/JI/VN/116627000/product-jpeg.jpg",
+    "description": "An antibiotic used to treat a wide variety of bacterial infections.",
+    "category": "Antibiotic"
+  },
+  {
+    "id": "4",
+    "name": "Cetirizine",
+    "price": "120",
+    "url": "https://4.imimg.com/data4/MU/BW/MY-4092588/cetirizine-tablets-500x500.jpg",
+    "description": "An antihistamine used to treat allergy symptoms such as sneezing and itching.",
+    "category": "Allergy"
+  },
+  {
+    "id": "5",
+    "name": "Loratadine",
+    "price": "90",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/2/UI/LC/NK/103975623/lorfast-meltab-loratadine-10mg-tablet.jpeg",
+    "description": "An antihistamine used to relieve allergy symptoms such as runny nose and sneezing.",
+    "category": "Allergy"
+  },
+  {
+    "id": "6",
+    "name": "Metformin",
+    "price": "200",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/8/332774949/NY/WA/ZJ/6299000/metformin-hydrochloride-tablets-500x500.jpeg",
+    "description": "A medication used to treat type 2 diabetes.",
+    "category": "Diabetes"
+  },
+  {
+    "id": "7",
+    "name": "Salbutamol",
+    "price": "60",
+    "url": "https://5.imimg.com/data5/SELLER/PDFImage/2023/9/341330735/XY/NW/CT/101900450/asthalin-inhaler.png",
+    "description": "A bronchodilator used to relieve bronchospasm in conditions such as asthma.",
+    "category": "Asthma"
+  },
+  {
+    "id": "8",
+    "name": "Amlodipine",
+    "price": "120",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/7/326770036/BL/UA/BR/135658020/amlodipine-tablets-ip-5-mg.jpg",
+    "description": "A calcium channel blocker used to treat high blood pressure and angina.",
+    "category": "Cardiovascular"
+  },
+  {
+    "id": "9",
+    "name": "Omeprazole",
+    "price": "150",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2023/8/333617770/HU/CV/CM/65567988/omeprazole-40mg-tablet.jpg",
+    "description": "A medication used to treat acid reflux and peptic ulcers.",
+    "category": "Gastrointestinal"
+  },
+  {
+    "id": "10",
+    "name": "Dexamethasone",
+    "price": "180",
+    "url": "https://5.imimg.com/data5/SELLER/Default/2022/9/WF/IH/HU/76282239/dexamethasone-tablet-4-mg.jpg",
+    "description": "A corticosteroid used to treat inflammation and immune system disorders.",
+    "category": "Steroids"
+  }
+],
+"AmbulanceSchema":[
+  {
+    "vehicleNumber": "KA-01-1234",
+    "imageurl": "https://th-i.thgim.com/public/incoming/kctn3a/article65066671.ece/alternates/FREE_1200/_DSC3383.jpg",
+    "phoneNumber": "123-456-7890",
+    "currentPlace": "Bangalore, Karnataka",
+    "availability": true
+  },
+  {
+    "vehicleNumber": "KA-02-5678",
+    "imageurl": "https://images.deccanherald.com/deccanherald/import/sites/dh/files/article_images/2020/05/19/file73jtdghzv9zh3u6knnq-1836940602-1547142989.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "phoneNumber": "987-654-3210",
+    "currentPlace": "Mysore, Karnataka",
+    "availability": false
+  },
+  {
+    "vehicleNumber": "KA-03-9876",
+    "imageurl": "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/04/22/Pictures/ghaziabad-lockdown-covid-19-day-25_5ff78444-84a6-11ea-bf89-3b987bd73d6a.jpg",
+    "phoneNumber": "555-111-2222",
+    "currentPlace": "Hubli, Karnataka",
+    "availability": true
+  },
+  {
+    "vehicleNumber": "KA-04-2468",
+    "imageurl": "https://scshospital.org/wp-content/themes/scshospital-child/images/ambulance.jpg",
+    "phoneNumber": "666-222-3333",
+    "currentPlace": "Mangalore, Karnataka",
+    "availability": true
+  },
+  {
+    "vehicleNumber": "KA-05-1357",
+    "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4d0mb3nX1aP_kBTFO3W07vthHtK9lNng_CA&s",
+    "phoneNumber": "777-888-9999",
+    "currentPlace": "Shimoga, Karnataka",
+    "availability": false
+  }
+]
+,
+"MedicalShopSchema":[
+  {
+    "shopName": "Health Plus Pharmacy",
+    "address": "123 Main St, Bangalore, Karnataka",
+    "phoneNumber": "080-12345678",
+    "availability": true,
+    "openingHours": "8 AM - 10 PM",
+    "emergencyServices": true
+  },
+  {
+    "shopName": "LifeCare Medical Store",
+    "address": "456 MG Road, Mysore, Karnataka",
+    "phoneNumber": "0821-23456789",
+    "availability": false,
+    "openingHours": "9 AM - 8 PM",
+    "emergencyServices": false
+  },
+  {
+    "shopName": "MedStar Pharmacy",
+    "address": "789 Jayanagar, Bangalore, Karnataka",
+    "phoneNumber": "080-98765432",
+    "availability": true,
+    "openingHours": "7 AM - 11 PM",
+    "emergencyServices": true
+  },
+  {
+    "shopName": "CureWell Pharmacy",
+    "address": "101 Indiranagar, Bangalore, Karnataka",
+    "phoneNumber": "080-55667788",
+    "availability": true,
+    "openingHours": "8 AM - 10 PM",
+    "emergencyServices": false
+  },
+  {
+    "shopName": "MedicCare Pharmacy",
+    "address": "202 Koramangala, Bangalore, Karnataka",
+    "phoneNumber": "080-44556677",
+    "availability": true,
+    "openingHours": "10 AM - 6 PM",
+    "emergencyServices": true
+  }
+]
+,
+"DoctorSchema":[
+  
+    {
+      "doctorName": "Dr. Olivia Brown",
+      "imageurl": "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9jdG9yfGVufDB8fDB8fHww",
+      "age": 37,
+      "fees": 400,
+      "category": "Pregnancy",
+      "availability": true,
+      "createdAt": "2024-12-16T10:30:00Z"
+    },
+    {
+      "doctorName": "Dr. Liam Davis",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww",
+      "age": 55,
+      "fees": 700,
+      "category": "Pregnancy",
+      "availability": false,
+      "createdAt": "2024-12-15T12:00:00Z"
+    },
+    {
+      "doctorName": "Dr. Mia Taylor",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1661580574627-9211124e5c3f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZG9jdG9yfGVufDB8fDB8fHww",
+      "age": 42,
+      "fees": 450,
+      "category": "Physical Treatment",
+      "availability": true,
+      "createdAt": "2024-12-14T09:45:00Z"
+    },
+    {
+      "doctorName": "Physical Treatment",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1661764878654-3d0fc2eefcca?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+      "age": 47,
+      "fees": 500,
+      "category": "Precautions",
+      "availability": true,
+      "createdAt": "2024-12-13T08:15:00Z"
+    },
+    {
+      "doctorName": "Mental Health",
+      "imageurl": "https://plus.unsplash.com/premium_photo-1661766718556-13c2efac1388?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+      "age": 39,
+      "fees": 600,
+      "category": "Pregnancy",
+      "availability": false,
+      "createdAt": "2024-12-12T14:00:00Z"
+    },
+    {
+      "doctorName": "Dr. Ethan Martinez",
+      "imageurl": "https://media.istockphoto.com/id/1390000431/photo/shot-of-a-mature-doctor-using-a-digital-tablet-in-a-modern-hospital.jpg?s=612x612&w=0&k=20&c=ofnikeDwvLhhEvLpSuQME5kWclGchqUKSHQFdQ4mcWo=",
+      "age": 52,
+      "fees": 800,
+      "category": "Mental Health",
+      "availability": true,
+      "createdAt": "2024-12-11T10:20:00Z"
+    },
+    {
+      "doctorName": "Mental Health",
+      "imageurl": "https://media.istockphoto.com/id/2050883733/photo/happy-successful-doctor-woman-medical-worker-in-white-lab-coat-standing-with-crossed-arms-on.webp?a=1&b=1&s=612x612&w=0&k=20&c=TwI1NORxnsq5M2OzsvHoDA3YC-DTQl7z3kjgSvT9RJk=",
+      "age": 35,
+      "fees": 350,
+      "category": "Precautions",
+      "availability": true,
+      "createdAt": "2024-12-10T13:30:00Z"
+    },
+    {
+      "doctorName": "Dr. William Garcia",
+      "imageurl": "https://media.istockphoto.com/id/1861987838/photo/smiling-female-doctor-looking-at-camera-in-the-medical-consultation.webp?a=1&b=1&s=612x612&w=0&k=20&c=um_usOsshRUn1qaLFF-5wyD9u_A4Wj2BhOFW2xsrkJ8=",
+      "age": 49,
+      "fees": 550,
+      "category": "Precautions",
+      "availability": false,
+      "createdAt": "2024-12-09T11:00:00Z"
+    },
+    {
+      "doctorName": "Dr. Emily Thomas",
+      "imageurl": "https://media.istockphoto.com/id/1372002650/photo/cropped-portrait-of-an-attractive-young-female-doctor-standing-with-her-arms-folded-in-the.jpg?s=612x612&w=0&k=20&c=o1QtStNsowOU0HSof6xQ_jZMglU8ZK565gHd655U6S4=",
+      "age": 45,
+      "fees": 480,
+      "category": "Suggestions",
+      "availability": true,
+      "createdAt": "2024-12-08T15:45:00Z"
+    },
+    {
+      "doctorName": "Dr. James Anderson",
+      "imageurl": "https://media.istockphoto.com/id/1470505351/photo/portrait-of-a-smiling-doctor-holding-glasses-and-a-mobile-phone-at-the-office.jpg?s=612x612&w=0&k=20&c=OQX6SG1K5Mn15e3VEli23NhJSbu5k3j-6Ms5ocqBsHY=",
+      "age": 53,
+      "fees": 750,
+      "category": "Suggestions",
+      "availability": true,
+      "createdAt": "2024-12-07T09:00:00Z"
+    }
+  
+]
+,
+"patientSchema":[
+  
+    {
+      "name": "John Doe",
+      "disease": "Lung Cancer",
+      "moneyRequired": 500000,
+      "url": "https://images.unsplash.com/photo-1550792436-181701c71f63?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGF0aWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "deadline": "2025-01-15T00:00:00Z",
+      "place": "New York, USA",
+      "hospitals": ["New York General Hospital", "City Cancer Center"]
+    },
+    {
+      "name": "Mary Jane",
+      "disease": "Kidney Failure",
+      "moneyRequired": 350000,
+      "url": "https://plus.unsplash.com/premium_photo-1681995498495-5258d436e705?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGF0aWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "deadline": "2025-02-10T00:00:00Z",
+      "place": "Los Angeles, USA",
+      "hospitals": ["Los Angeles Medical Center", "St. Mary's Hospital"]
+    },
+    {
+      "name": "David Smith",
+      "disease": "Heart Disease",
+      "moneyRequired": 600000,
+      "url": "https://images.unsplash.com/photo-1606166187734-a4cb74079037?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhdGllbnR8ZW58MHx8MHx8fDA%3D",
+      "deadline": "2025-01-20T00:00:00Z",
+      "place": "Chicago, USA",
+      "hospitals": ["Chicago Heart Institute", "Northwestern Memorial Hospital"]
+    },
+    {
+      "name": "Emma Watson",
+      "disease": "Brain Tumor",
+      "moneyRequired": 800000,
+      "url": "https://images.unsplash.com/photo-1550792404-f62d4ce3bb3e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBhdGllbnR8ZW58MHx8MHx8fDA%3D",
+      "deadline": "2025-03-05T00:00:00Z",
+      "place": "London, UK",
+      "hospitals": ["Royal London Hospital", "St. George's Hospital"]
+    },
+    {
+      "name": "Liam Brown",
+      "disease": "Bone Marrow Transplant",
+      "moneyRequired": 750000,
+      "url": "https://c7.alamy.com/comp/C6GGKB/doctors-to-proceed-with-bone-marrow-transplant-this-brave-youngster-C6GGKB.jpg",
+      "deadline": "2025-04-01T00:00:00Z",
+      "place": "Sydney, Australia",
+      "hospitals": ["Sydney Health Center", "Prince of Wales Hospital"]
+    },
+    {
+      "name": "Sophia Green",
+      "disease": "Leukemia",
+      "moneyRequired": 900000,
+      "url": "https://c7.alamy.com/comp/B7DH03/people-give-blood-during-a-red-cross-blood-drive-in-orange-connecticut-B7DH03.jpg",
+      "deadline": "2025-02-25T00:00:00Z",
+      "place": "Toronto, Canada",
+      "hospitals": ["Toronto General Hospital", "Sunnybrook Health Sciences Centre"]
+    },
+    {
+      "name": "Oliver White",
+      "disease": "Liver Cirrhosis",
+      "moneyRequired": 450000,
+      "url": "https://c7.alamy.com/comp/2PM7RTY/human-liver-disease-diagnosis-and-treatment-doctor-gastroenterologist-showing-liver-anatomical-model-for-treatment-hepatitis-cirrhosis-and-cancer-w-2PM7RTY.jpg",
+      "deadline": "2025-01-30T00:00:00Z",
+      "place": "Mumbai, India",
+      "hospitals": ["Tata Memorial Hospital", "Lilavati Hospital"]
+    },
+    {
+      "name": "Amelia Clarke",
+      "disease": "Pancreatic Cancer",
+      "moneyRequired": 550000,
+      "url": "https://c7.alamy.com/comp/E593XF/patient-with-oxygen-mask-in-an-operating-room-E593XF.jpg",
+      "deadline": "2025-03-15T00:00:00Z",
+      "place": "Cape Town, South Africa",
+      "hospitals": ["Groote Schuur Hospital", "Netcare Christiaan Barnard Memorial Hospital"]
+    }
+  ]
+
+
+,
+"medinearby":[
+  {
+    "shopName": "MedicZone Pharmacy",
+    "address": "321 Maple Avenue, Eastside",
+    "phoneNumber": "9776655443",
+    "availability": true,
+    "openingHours": "8 AM - 8 PM",
+    "emergencyServices": false,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5641, 12.9632] 
+    },
+    "products": [
+      {
+        "id": "P111",
+        "name": "Cold & Flu Tablets",
+        "price": "90",
+        "url": "https://imgs.search.brave.com/UILpI6kC7u3asZQ7bC46EFqvvPnbmR5GHw7eW54wutA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC96aTI1ZzJt/MTZrdHMvS2RZRkZj/V2p4eDYxZFoxUTR6/T3RxLzAwNDFmOWQ1/ZmE3ODk4OWE3MjNk/Y2VhZjcyYmI4YmQ3/L2NvZHJhbC1jb2xk/LWZsdS0yMC10YWJs/ZXRzLTcwLWVuLWF1",
+        "description": "Relieves symptoms of cold and flu",
+        "category": "Medicine"
+      },
+      {
+        "id": "P112",
+        "name": "Omega-3 Fish Oil",
+        "price": "220",
+        "url": "https://imgs.search.brave.com/-nSWplL36xt0CsUABRxdgDDOvqbkyka3dt8Irnc3bzU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y29uc3VtZXJsYWIu/Y29tL2ltYWdlcy9w/cm9kdWN0cy84Mzgw/X2xhcmdlX1NwZWN0/cnVtX0Zpc2hfT2ls/X09tZWdhLTMtRmlz/aF9PaWwtMjAyMy5w/bmc",
+        "description": "Supports heart health and joint flexibility",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "BrightCare Pharmacy",
+    "address": "200 Sunset Boulevard, Riverpark",
+    "phoneNumber": "9338776655",
+    "availability": true,
+    "openingHours": "8 AM - 10 PM",
+    "emergencyServices": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5770, 12.9512]
+    },
+    "products": [
+      {
+        "id": "P113",
+        "name": "Antibiotic Ointment",
+        "price": "120",
+        "url": "https://imgs.search.brave.com/OcENPa7J8zQ1whA7omHZY_Cnfe7qwF26ko6PesLgwR4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9rOGl4MXNt/MWI0OGMvNE9kbGJY/Mms5VUtHNkZ5TjA2/M3FLeC9iNWZkMWZl/MGRkODgzMTc1YTIy/MmM3MjM2Y2Q1MzAy/Zi8wMV9wbHlfMzAw/ODEwNzk4ODc3X3Vz/X3BseXlzcG9yaW5f/b2ludG1lbnRfMW96/X29id2JfNTAwd3g1/MDBoLWVuLXVz",
+        "description": "Prevents infections in cuts and scrapes",
+        "category": "Medicine"
+      },
+      {
+        "id": "P114",
+        "name": "Vitamin D3",
+        "price": "250",
+        "url": "https://imgs.search.brave.com/rqEJeb_6V74Cu9YdNfmpsX0deUJ40cs7S2NUK6szvW8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzYxZHY2YS1hMjBM/LmpwZw",
+        "description": "Supports bone health and immune function",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "CareMed Pharmacy",
+    "address": "45 River Road, Southgate",
+    "phoneNumber": "9112448899",
+    "availability": false,
+    "openingHours": "10 AM - 6 PM",
+    "emergencyServices": false,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5907, 12.9478]
+    },
+    "products": [
+      {
+        "id": "P115",
+        "name": "Muscle Relaxant Gel",
+        "price": "150",
+        "url": "https://imgs.search.brave.com/a1sH8r0P9ivZfb0wxb4prbYzE0rI40uDNBI73PTZ11c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFsSFhIcjJJNUwu/anBn",
+        "description": "Relieves muscle pain and stiffness",
+        "category": "Medicine"
+      },
+      {
+        "id": "P116",
+        "name": "Biotin Supplement",
+        "price": "180",
+        "url": "https://imgs.search.brave.com/lN7QG8InUX3G8tUcq0jeBcdCi3Y1SXm6lKnU65nA1YE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzYxQ1Bjdnhjb21M/LmpwZw",
+        "description": "Supports hair, skin, and nails health",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "VitalHealth Pharmacy",
+    "address": "72 Crestwood Drive, Parkview",
+    "phoneNumber": "9002345678",
+    "availability": true,
+    "openingHours": "9 AM - 9 PM",
+    "emergencyServices": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.6158, 12.9439] 
+    },
+    "products": [
+      {
+        "id": "P117",
+        "name": "Eye Drops",
+        "price": "60",
+        "url": "https://imgs.search.brave.com/_KPlcuFgqzXkxT2c_JVPARZpJAB6fJQfiTdtDajheiM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9rOGl4MXNt/MWI0OGMvNHVjVGoy/SVc3Y3h2WVMzVEZC/enc3ay9mYjA2MTc5/ODMxN2E4N2IwZjVi/ZTYxMzMzOTc5MDIw/Mi81b3pfMWN0XzAw/MDAwLWVuLXVzLVZp/c2luZS1fLVZpc3By/aW5nLV8tVmlzY2xl/YXIud2VicA",
+        "description": "Relieves dry and irritated eyes",
+        "category": "Medicine"
+      },
+      {
+        "id": "P118",
+        "name": "Vitamin B Complex",
+        "price": "210",
+        "url": "https://imgs.search.brave.com/0ugVWvcSiwd5YPuX0uka_-UwlW3h654PzVAy_JSXiY4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzYxMTJOdmV4TzhM/LmpwZw",
+        "description": "Supports energy production and overall health",
+        "category": "Supplements"
+      }
+    ]
+  },
+  {
+    "shopName": "QuickCare Pharmacy",
+    "address": "58 Birch Lane, Hilltop",
+    "phoneNumber": "9123456789",
+    "availability": true,
+    "openingHours": "8 AM - 7 PM",
+    "emergencyServices": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5882, 12.9545] 
+    },
+    "products": [
+      {
+        "id": "P119",
+        "name": "Anti-Allergy Tablets",
+        "price": "85",
+        "url": "https://imgs.search.brave.com/iBfUCUMjqveV5Kuvd3o9rXjivuJuL4Bxj5CFdGrWkRc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFWbTFCRkdvRUwu/anBn",
+        "description": "Relieves allergy symptoms like sneezing and itching",
+        "category": "Medicine"
+      },
+      {
+        "id": "P120",
+        "name": "Magnesium Supplement",
+        "price": "170",
+        "url": "https://imgs.search.brave.com/mlQqMumX5b1rivJRGI31nuOKMZzs1fXZc3HTmTjNR4Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxSWdhYUVXTVRM/LmpwZw",
+        "description": "Supports muscle and nerve function",
+        "category": "Supplements"
+      }
+    ]
+  }
+]
+,
+
+
+  "healthnearby": [
+    {
+      "id": "HT001",
+      "name": "Dr. Priya Sharma",
+      "specialty": "General Physician",
+      "phone": "8901234567",
+      "email": "priya.sharma@example.com",
+      "location": "Lakeview Apartments, City Center",
+      "availability": "10 AM - 4 PM",
+      "image": "https://media.istockphoto.com/id/1292015214/photo/portrait-female-doctor-stock-photo.jpg?s=612x612&w=0&k=20&c=nr4XaWnRPQnWqwhzahajZhskIDG1yK9DmIteV5gpUOI=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6109, 12.9721]
+      }
+    },
+    {
+      "id": "HT002",
+      "name": "Dr. Ramesh Kumar",
+      "specialty": "Orthopedic Surgeon",
+      "phone": "8765432109",
+      "email": "ramesh.kumar@example.com",
+      "location": "Grand Residency, South Lane",
+      "availability": "2 PM - 8 PM",
+      "image": "https://media.istockphoto.com/id/1298800629/photo/portrait-of-confident-male-doctor-looking-at-camera.jpg?s=612x612&w=0&k=20&c=CB3h3a-0yUBgaZHhF2Kd5ibfDv25Qcjsca-ia5gIWUM=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6412, 12.9143]
+      }
+    },
+    {
+      "id": "HT003",
+      "name": "Dr. Anita Verma",
+      "specialty": "Pediatrician",
+      "phone": "8123456789",
+      "email": "anita.verma@example.com",
+      "location": "Sunrise Clinic, North Street",
+      "availability": "9 AM - 1 PM",
+      "image": "https://media.istockphoto.com/id/1301595548/photo/female-doctor-stock-photo.jpg?s=612x612&w=0&k=20&c=s9kTlQCWJcYmCyMwYwJfTq7jiC1NfHaXzZyGhi4fRHM=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6200, 12.9301]
+      }
+    },
+    {
+      "id": "HT004",
+      "name": "Dr. Mohan Das",
+      "specialty": "Cardiologist",
+      "phone": "9988776655",
+      "email": "mohan.das@example.com",
+      "location": "Heart Care Center, Green Valley",
+      "availability": "11 AM - 5 PM",
+      "image": "https://media.istockphoto.com/id/177373093/photo/indian-male-doctor.jpg?s=612x612&w=0&k=20&c=5FkfKdCYERkAg65cQtdqeO_D0JMv6vrEdPw3mX1Lkfg=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.5998, 12.9156]
+      }
+    },
+    {
+      "id": "HT005",
+      "name": "Dr. Kavita Menon",
+      "specialty": "Dermatologist",
+      "phone": "9012345678",
+      "email": "kavita.menon@example.com",
+      "location": "Skin Care Clinic, East End",
+      "availability": "3 PM - 8 PM",
+      "image": "https://media.istockphoto.com/id/1270790502/photo/medical-concept-of-indian-beautiful-female-doctor-with-note-book.jpg?s=612x612&w=0&k=20&c=5r5tCLSnYHKiPNaHn4hu-e4u_-3eat_8PRdmEQgkmVM=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6301, 12.9553]
+      }
+    },
+    {
+      "id": "HT006",
+      "name": "Dr. Suraj Patel",
+      "specialty": "ENT Specialist",
+      "phone": "7890123456",
+      "email": "suraj.patel@example.com",
+      "location": "Harmony Clinic, West Cross",
+      "availability": "10 AM - 2 PM",
+      "image": "https://media.istockphoto.com/id/1080237358/photo/indian-male-doctor-on-blue-background-stock-image.jpg?s=612x612&w=0&k=20&c=584Xv0Nsqtxl1wGVGjDH7aunkBDWguG3nyR3sxEh4tU=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.5902, 12.9754]
+      }
+    },
+    {
+      "id": "HT007",
+      "name": "Dr. Radha Iyer",
+      "specialty": "Gynecologist",
+      "phone": "9812345678",
+      "email": "radha.iyer@example.com",
+      "location": "Care Women Clinic, Maple Avenue",
+      "availability": "11 AM - 7 PM",
+      "image": "https://media.istockphoto.com/id/1200980392/photo/medical-concept-of-asian-beautiful-female-doctor-in-white-coat-with-stethoscope-waist-up.jpg?s=612x612&w=0&k=20&c=nD_1Tn11kWcMZwZfnyA-lYAvNKcBeoEK_KLObBnN6Jg=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6012, 12.9405]
+      }
+    },
+    {
+      "id": "HT008",
+      "name": "Dr. Karan Singh",
+      "specialty": "Dentist",
+      "phone": "8123456700",
+      "email": "karan.singh@example.com",
+      "location": "Bright Smile Dental Clinic, High Street",
+      "availability": "9 AM - 6 PM",
+      "image": "https://media.istockphoto.com/id/1327024466/photo/portrait-of-male-doctor-in-white-coat-and-stethoscope-standing-in-clinic-hall.jpg?s=612x612&w=0&k=20&c=49wqOwwuonk9f8NACL7M_5RosqQPFwJ8-dpmeo9AvQw=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6103, 12.9307]
+      }
+    },
+    {
+      "id": "HT009",
+      "name": "Dr. Sameer Gupta",
+      "specialty": "Neurologist",
+      "phone": "9098765432",
+      "email": "sameer.gupta@example.com",
+      "location": "Mind and Body Clinic, South View",
+      "availability": "12 PM - 6 PM",
+      "image": "https://media.istockphoto.com/id/1203928556/photo/medical-concept-of-asian-beautiful-female-doctor-in-white-coat-with-stethoscope-waist-up.jpg?s=612x612&w=0&k=20&c=CM7z7JKYcjSdHSgddudODe1E9j8sjUhSU0AcBIxgR-Y=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6205, 12.9701]
+      }
+    },
+    {
+      "id": "HT010",
+      "name": "Dr. Nisha Chawla",
+      "specialty": "Psychiatrist",
+      "phone": "8899001122",
+      "email": "nisha.chawla@example.com",
+      "location": "Mental Wellness Center, Oak Lane",
+      "availability": "10 AM - 4 PM",
+      "image": "https://media.istockphoto.com/id/1742056601/photo/photo-of-doctor-lady-smile-looking-at-camera-wear-stethoscope-white-uniform-isolate-white.jpg?s=612x612&w=0&k=20&c=XxMIMOssaMAT2zViPWohJGX51ymcSyY9RxtbiYYLEIE=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.6402, 12.9148]
+      }
+    },
+    {
+      "id": "HT011",
+      "name": "Dr. Arjun Roy",
+      "specialty": "Endocrinologist",
+      "phone": "8989898989",
+      "email": "arjun.roy@example.com",
+      "location": "Endo Care Clinic, Central Plaza",
+      "availability": "2 PM - 6 PM",
+      "image": "https://media.istockphoto.com/id/1342708859/photo/portrait-of-a-male-doctor.jpg?s=612x612&w=0&k=20&c=7ojvfSnLNx73sR1xXTReBrIXJOZPpSNFZ3E9CodsfQU=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.56490694485468, 13.032401309206884]
+      }
+    },
+    {
+      "id": "HT012",
+      "name": "Dr. Seema Khanna",
+      "specialty": "Oncologist",
+      "phone": "9501122334",
+      "email": "jk.karunadu01@gmail.com",
+      "location": "Cancer Care Center, Main Road",
+      "availability": "10 AM - 3 PM",
+      "image": "https://media.istockphoto.com/id/1202532472/photo/doctor-portrait-smiling-woman-with-hands-crossed.jpg?s=612x612&w=0&k=20&c=7e0fjy0qAcs0G9H3rpsw3rjwLzZgOTBwRHDBv1J_6rs=",
+      "nearbyLocation": {
+        "type": "Point",
+        "coordinates": [77.5649243777627, 13.032393157464405]
+      }
+    }
+  ]
+
+
+"Ambulance":[
+  {
+    "vehicleNumber": "KA01AB1234",
+    "imageurl": "https://imgs.search.brave.com/9EhIptwxdLXSntXITVlt1vSob5sOLsery1pZnRWnbYw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzE2LzYwLzAx/LzM2MF9GXzE2NjAw/MTM1X3pPZlFVWTQz/TnpubEo4V2YxcE1q/WUE5MndPUzlNNk9D/LmpwZw",
+    "phoneNumber": "911",
+    "currentPlace": "City Hospital, MG Road",
+    "availability": true,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.5649243777627, 13.032393157464405] 
+    }
+  },
+  {
+    "vehicleNumber": "KA05CD5678",
+    "imageurl": "https://imgs.search.brave.com/9EhIptwxdLXSntXITVlt1vSob5sOLsery1pZnRWnbYw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzE2LzYwLzAx/LzM2MF9GXzE2NjAw/MTM1X3pPZlFVWTQz/TnpubEo4V2YxcE1q/WUE5MndPUzlNNk9D/LmpwZw",
+    "phoneNumber": "108",
+    "currentPlace": "East Wing Medical Center",
+    "availability": false,
+    "nearbyLocation": {
+      "type": "Point",
+      "coordinates": [77.6215, 12.9345] 
+    }
+  }
+]
+,
+
+
+
+
+     

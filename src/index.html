@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Meeting AI</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <!-- <link rel="icon" type="image/png" href="./2.png"> -->
+  <!-- <link rel="icon" type="image/png"  sizes="32x32" href="https://imgs.search.brave.com/2NYALa2fdnFB_2ryxzCuoFosOnJ-ZwhvP8cb5Z79JSk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXhj/ZG4uaWNvbnM4LmNv/bS9wYWNrcy9wcmV2/aWV3LWljb24vaGVh/bHRoY2FyZS5zdmc"> -->
+  <link rel="icon" type="image/png" sizes="32x32"
+  href="https://imgs.search.brave.com/VuhrHFWuA6KEAB-G5DzQr9OzRBrDp7m8b0v-V4Rmy0k/rs:fit:860:0:0:0/g:ce/aHR0cDovL2NsaXBh/cnQtbGlicmFyeS5j/b20vaW1nMS82ODU1/NTYuanBn">
+  <!-- <base href="/"> -->
+
+
+  <style>
+    .scrollToTop {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      display: none;
+      width: 50px;
+      height: 50px;
+      background-color: #8f8f8f;
+      color: white;
+      opacity: 0.5;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 28px;
+      font-weight: 500;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      text-align: center;
+      transition: opacity 0.3s ease;
+    }
+
+    .scrollToTop.show-btn {
+      display: flex;
+      opacity: 1;
+    }
+
+    .scrollToTop:hover {
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    }
+
+    /* Add some basic styling for the translator */
+    .gtranslate_wrapper {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1000;
+    }
+
+    /* Optional: Add some styling to the GTranslate widget */
+    .gt_float_switcher {
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+
+    .gt_float_switcher:hover {
+      opacity: 1;
+    }
+
+    .real-time-updates {
+      margin-top: 20px;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+    }
+
+
+    /* Toast Notification Styles */
+    .toast {
+      visibility: hidden;
+      min-width: 250px;
+      margin-left: -125px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 2px;
+      padding: 16px;
+      position: fixed;
+      z-index: 1002;
+      left: 50%;
+      bottom: 30px;
+      font-size: 17px;
+    }
+
+    .toast.show {
+      visibility: visible;
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+
+    @-webkit-keyframes fadein {
+      from {bottom: 0; opacity: 0;} 
+      to {bottom: 30px; opacity: 1;}
+    }
+
+    @keyframes fadein {
+      from {bottom: 0; opacity: 0;}
+      to {bottom: 30px; opacity: 1;}
+    }
+
+    @-webkit-keyframes fadeout {
+      from {bottom: 30px; opacity: 1;} 
+      to {bottom: 0; opacity: 0;}
+    }
+
+    @keyframes fadeout {
+      from {bottom: 30px; opacity: 1;}
+      to {bottom: 0; opacity: 0;}
+    }
+
+    /* Modal Styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1001;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.6);
+    }
+
+    .modal-content {
+      background-color: #2a2a2a;
+      margin: 10% auto;
+      padding: 30px;
+      border: 2px solid #FF1493; /* Dark pink border */
+      outline: 1px solid #FF69B4; /* Lighter pink outline */
+      width: 90%;
+      max-width: 500px;
+      color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(255, 20, 147, 0.3); /* Dark pink shadow */
+    }
+
+    .close {
+      color: #FF1493; /* Dark pink close button */
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #FF69B4; /* Lighter pink on hover */
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .modal-form input,
+    .modal-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #FF1493; /* Dark pink border */
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #333;
+      color: white;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .modal-form input:focus,
+    .modal-form textarea:focus {
+      border-color: #FF69B4; /* Lighter pink on focus */
+      box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+      outline: none;
+    }
+
+    .modal-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #FF1493; /* Dark pink button */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    .modal-form button:hover {
+      background-color: #FF69B4; /* Lighter pink on hover */
+      box-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
+    }
+
+   
+
+    /* Add this to your existing styles */
+ 
+
+   
+
+    /* Testimonials Section Styles */
+  
+
+   
+ 
+
+ 
+
+    .gtranslate_wrapper {
+        position: fixed !important;
+        left: 10px !important;
+        bottom: 10px !important;
+        z-index: 1000;
+      }
+      .gt_float_switcher {
+        font-family: Arial, sans-serif !important;
+        border: none !important;
+        box-shadow: 0 4px 12px rgba(212, 147, 29, 0.3) !important;
+        border-radius: 25px !important;
+        overflow: hidden !important;
+        transition: all 0.3s ease !important;
+      }
+      .gt_float_switcher:hover {
+        box-shadow: 0 6px 16px rgba(212, 147, 29, 0.4) !important;
+        transform: translateY(-2px) !important;
+      }
+      .gt_float_switcher .gt_selected {
+        background: linear-gradient(135deg, #D4931D, #F2B544) !important;
+        color: white !important;
+        padding: 12px 20px !important;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1) !important;
+      }
+      .gt_float_switcher .gt_selected a {
+        color: white !important;
+      }
+      .gt_float_switcher .gt_options {
+        max-height: 300px !important;
+        overflow-y: auto !important;
+        scrollbar-width: thin;
+        scrollbar-color: #D4931D #f0f0f0;
+        background-color: #ffffff !important;
+        border-top: 2px solid #F2B544 !important;
+      }
+      .gt_float_switcher .gt_options::-webkit-scrollbar {
+        width: 8px;
+      }
+      .gt_float_switcher .gt_options::-webkit-scrollbar-track {
+        background: #f0f0f0;
+      }
+      .gt_float_switcher .gt_options::-webkit-scrollbar-thumb {
+        background-color: #D4931D;
+        border-radius: 4px;
+      }
+      .gt_float_switcher .gt_options a {
+        color: #333 !important;
+        padding: 10px 20px !important;
+        transition: all 0.2s ease !important;
+      }
+      .gt_float_switcher .gt_options a:hover {
+        background-color: #FFF5E6 !important;
+        color: #D4931D !important;
+      }
+      /* Add an icon to the toggle button */
+      .gt_float_switcher .gt_selected:before {
+        content: "\1F310";  /* Unicode for a globe icon */
+        margin-right: 8px;
+      }
+      /* Pulsating effect for the button */
+      @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+      }
+      .gt_float_switcher {
+        animation: pulse 2s infinite;
+      }
+      .gt_float_switcher:hover {
+        animation: none;
+      }
+  </style>
+</head>
+<body>
+  <app-root></app-root>
+
+  <div class="gtranslate_wrapper"></div>
+
+   <script>
+    window.embeddedChatbotConfig = {
+      chatbotId: "oA_rXZ5BFgXbM-YwcC0vx",
+      domain: "www.chatbase.co"
+    }
+  </script>
+  <script src="https://www.chatbase.co/embed.min.js" chatbotId="oA_rXZ5BFgXbM-YwcC0vx" domain="www.chatbase.co"
+    defer></script> 
+  
+  <script>
+    const scrollButton = document.getElementById('scrollToTopBtn');
+    const updatesList = document.getElementById('updatesList');
+  
+    // Scroll-to-top button logic
+    window.addEventListener('scroll', () => {
+      window.pageYOffset > 100
+        ? scrollButton.classList.add('show-btn')
+        : scrollButton.classList.remove('show-btn');
+    });
+  
+    function smoothScrollToTop() {
+      const scrollY = window.pageYOffset;
+  
+      if (scrollY > 0) {
+        window.scrollBy(0, -Math.min(scrollY, 70));
+        requestAnimationFrame(smoothScrollToTop);
+      }
+    }
+  
+    scrollButton.addEventListener('click', () => {
+      smoothScrollToTop();
+    });
+  
+  </script>   
+
+  <script>
+    window.gtranslateSettings = {
+      "default_language": "en",
+      "detect_browser_language": true,
+      "wrapper_selector": ".gtranslate_wrapper",
+      "flag_style": "2d",
+      "switcher_horizontal_position": "left",
+      "switcher_vertical_position": "bottom",
+      "float_switcher_open_direction": "top",
+      "float_switching_button_width": "200px",
+      "float_switching_button_height": "40px",
+      "float_switching_button_radius": "0px",
+      "float_switching_button_margin": "0 0 10px 10px",
+      "alt_flags": {"en": "usa", "pt": "brazil"}
+    }
+    </script> 
+
+    
+     <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script> 
+   
+</body>
+</html>
