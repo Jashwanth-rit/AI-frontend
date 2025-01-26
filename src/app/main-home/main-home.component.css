@@ -1,271 +1,114 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-   
-  }
-  
-  a {
-    text-decoration: none;
-   
-  }
-  
-  /* Hero Section */
-  .hero {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-  }
-  
-  .hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center; /* Ensures the image is centered */
-  }
-  
-  .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-    text-align: center;
-  }
-  
-  .hero-text h1 {
-    font-size: 3rem;
-    margin: 0;
-  }
-  
-  .hero-text p {
-    font-size: 1.5rem;
-  }
-  
-  /* About Us Section */
-  .about-us {
-   
-    padding: 40px 20px;
-  }
-  
-  .about-us .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .about-us h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .about-us p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-  
-  }
-  
-  .about-image {
-    max-width: 100%;
-    margin-top: 20px;
-    border-radius: 8px;
-  }
-  
-  /* Services Section */
-  .services {
-   
-    padding: 40px 20px;
-  }
-  
-  .services h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .service-card {
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    margin: 10px 1.5%;
+/* main-home.component.css */
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
  
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #4f79e1;
+}
+
+/* Search Button */
+button {
+  padding: 12px 20px;
+  background-color: #4f79e1;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e68c3;
+}
+
+/* Results */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  padding: 15px;
+ 
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+strong {
+  font-size: 1.2em;
+ 
+}
+
+/* Result Text */
+p {
+  font-size: 16px;
+  line-height: 1.5;
   
-  .service-image {
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Letter by Letter Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
     width: 100%;
-    height: auto;
-    border-radius: 8px;
   }
+}
+
+/* LLM Response Animation */
+.llm-response p {
+  display: inline-block;
+  overflow: hidden;
+  white-space: normal; /* Allow text to wrap and move to the next line */
+  width: 100%; /* Full width for multiline support */
+  animation: typing 3s steps(30) 1s forwards;
+  word-wrap: break-word; /* Ensure words break when they reach the end of the line */
+ /* For a typewriter effect */
+  font-size: 16px;
+  line-height: 1.6;
   
-  .service-card h3 {
-    margin-top: 20px;
-    font-size: 1.8rem;
-  }
-  
-  .service-card p {
-    font-size: 1.1rem;
-   
-  }
-  
-  /* Testimonials Section */
-  .testimonials {
-   
-    padding: 40px 20px;
-  }
-  
-  .testimonials h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .testimonial-card {
-  
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .testimonial-card p {
-    font-size: 1.2rem;
-   
-  }
-  
-  .testimonial-card strong {
-    font-size: 1.1rem;
-   
-  }
-  
-  /* Call to Action Section */
-  .call-to-action {
-   
-   
-    text-align: center;
-    padding: 40px 20px;
-  }
-  
-  .call-to-action h2 {
-    font-size: 2.5rem;
-  }
-  
-  .call-to-action p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  .cta-button {
-    padding: 15px 30px;
-   
-    border: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .cta-button:hover {
-   
-  }
-  
-  /* Contact Us Section */
-  .contact-us {
-  
-    padding: 40px 20px;
-  }
-  
-  .contact-us .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .contact-us h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .contact-us form {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .contact-us input, .contact-us textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1rem;
-  }
-  
-  .contact-us button {
-    padding: 15px 30px;
-   
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .contact-us button:hover {
-   
-  }
-  
-  /* Footer */
-  footer {
-   
-    text-align: center;
-    padding: 20px;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-info, .footer-links, .footer-social {
-    flex: 1;
-    margin: 0 20px;
-  }
-  
-  footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer-links ul, .footer-social ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-links ul li, .footer-social ul li {
-    margin: 10px 0;
-  }
-  
-  .footer-links h3, .footer-social h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
+}

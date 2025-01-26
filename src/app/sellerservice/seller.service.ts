@@ -8,12 +8,19 @@ import { catchError } from 'rxjs/operators';
 import { of } from 'rxjs';  // Add this import statement
 
 
-console.log(`${environment.backendUrl}`)
+
 
 @Injectable({
   providedIn: 'root',
 })
 export class SellerService {
+  private apiUrl = 'https://your-backend-server-url/api';
+
+  constructor(private http: HttpClient) {}
+
+  sendData(data: FormData): Observable<any> {
+    return this.http.post(`${this.apiUrl}/submit-query`, data);
+  }
  
   
 }
