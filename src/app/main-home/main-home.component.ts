@@ -22,27 +22,7 @@ export class MainHomeComponent {
 
   constructor(private backendService: SellerService,private http: HttpClient) {}
 
-  // onFileSelected(event: Event): void {
-  //   const target = event.target as HTMLInputElement;
-  //   if (target.files && target.files.length > 0) {
-  //     this.file = target.files[0];
-  //   }
-  // }
 
-  // submitQuery(): void {
-  //   if (!this.query && !this.file) {
-  //     alert('Please provide a query or upload a file.');
-  //     return;
-  //   }
-  //   const formData = new FormData();
-  //   if (this.query) formData.append('query', this.query);
-  //   if (this.file) formData.append('file', this.file);
-
-  //   this.backendService.sendData(formData).subscribe({
-  //     next: (response) => alert('Data sent successfully!'),
-  //     error: (err) => console.error('Error:', err),
-  //   });
-  // }
   
 
   llmResponse: string = '';

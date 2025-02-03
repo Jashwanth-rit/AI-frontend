@@ -1,5 +1,4 @@
-<!-- main-home.component.html -->
-<!-- main-home.component.html -->
+
 <div class="container">
   <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>  
 
@@ -16,7 +15,7 @@
       <li *ngFor="let result of results">
         <strong>{{ result.date }}</strong> - {{ result.time }}
         <br />
-        Attendees: {{ formatAttendees(result.attendees) }} <!-- Use the formatted attendees list -->
+        Attendees: {{ formatAttendees(result.attendees) }} 
         <br />
         Conversation: {{ result.conversation }}
       </li>
@@ -30,24 +29,3 @@
   </div>
 </div>
 
-<!--   
-    <div class="search-box">
-      <input 
-        type="text" 
-        placeholder="Enter your query here..." 
-        [(ngModel)]="query" 
-        class="query-input"
-      />
-      <input 
-        type="file" 
-        (change)="onFileSelected($event)" 
-        class="file-upload"
-      />
-      <button 
-        class="submit-button" 
-        (click)="submitQuery()"
-      >
-        <i class="arrow">&#8594;</i>
-      </button>
-    </div> -->
-  <!-- </div> -->
